@@ -36,7 +36,7 @@ def select_by_id(pk):
 
 def insert(user_dict):
     value_tuple = (
-        user_dict.get("fisrt_name"),
+        user_dict.get("first_name"),
         user_dict.get("last_name"),
         user_dict.get("hobbies")
     )

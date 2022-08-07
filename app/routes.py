@@ -50,7 +50,7 @@ def create_users():
     user.insert(raw_data)
     out = {
         "status": "ok",
-        "message": "created",
+        "message": "created"
     }
     return out, 201
 
